@@ -1,7 +1,7 @@
 'use strict'
 
     const insertWordInto = function (arg) {
-    let placeInStr = [];
+    const placeInStr = [];
     return function insert (str) {
         const arr = arg.split([' '])
         const number = Math.floor(Math.random() * (arr.length + 1));
